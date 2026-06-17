@@ -1,0 +1,25 @@
+html{
+    box-sizing: border-box;
+}
+ *,
+ *::before,
+ *::after{
+     box-sizing: inherit;
+ }
+
+ body{
+    
+ }
+.container{
+    background-color: chartreuse;
+    }
+    
+ .logo,
+ .link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 100px;
+    background-color: aqua;
+ }
