@@ -10,16 +10,80 @@ html{
  body{
     
  }
-.container{
-    background-color: chartreuse;
-    }
+
     
+
+ .link,
+ .quote,
  .logo,
- .link{
+ .call,
+ .website,
+ .footer,
+ .quoteDos{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
     margin: 15px 100px;
-    background-color: aqua;
+
  }
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 100px;
+
+}
+.cartel{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.img-inf{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    
+}
+
+.quote{
+    background-color: rgb(238, 237, 235);
+    font-size: 50px;
+    font-style: italic;
+}
+
+.quoteDos{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.call{
+    background-color: rgb(96, 96, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    color: white;
+}
+
+.boton{
+    background-color: rgb(150, 187, 187);
+    border-radius: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
